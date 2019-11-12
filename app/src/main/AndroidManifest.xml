@@ -19,18 +19,7 @@
 
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
 
-<!-- Sound Picker Activity -->
- <activity
-android:name=".ui.activities.SoundPickerActivity"
-android:theme="@style/AlertDialog"
-android:excludeFromRecents="true">
-<intent-filter>
-<action android:name="android.intent.action.RINGTONE_PICKER"/>
-<category android:name="android.intent.category.DEFAULT"/>
-</intent-filter>
-</activity>
-
- <!-- Google Cloud Messaging -->
+    <!-- Google Cloud Messaging -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
 
     <!-- GCM App-Specific Declaration -->
@@ -73,6 +62,17 @@ android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+    <!-- Sound Picker Activity -->
+        <activity
+            android:name=".ui.activities.SoundPickerActivity"
+            android:theme="@style/AlertDialog"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.RINGTONE_PICKER" />
+            <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 
