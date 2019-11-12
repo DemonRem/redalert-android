@@ -21,7 +21,7 @@ import com.red.alert.logic.integration.BluetoothIntegration;
 import com.red.alert.receivers.NotificationDeletedReceiver;
 import com.red.alert.utils.communication.Broadcasts;
 import com.red.alert.utils.formatting.StringUtils;
-
+import com.red.alert.logic.communication.intents.SoundServiceParameters;
 import me.pushy.sdk.Pushy;
 
 public class RocketNotifications {

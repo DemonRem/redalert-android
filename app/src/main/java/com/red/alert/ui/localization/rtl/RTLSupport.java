@@ -44,6 +44,7 @@ public class RTLSupport {
             TextView message = (TextView) dialog.findViewById(android.R.id.message);
 
             // Defy gravity
+	message.setGravity(Gravity.RIGHT);
             if (message != null) {
                 message.setGravity(Gravity.RIGHT);
             }
