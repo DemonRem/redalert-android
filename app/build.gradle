@@ -7,9 +7,9 @@ android {
     defaultConfig {
         applicationId "com.red.alert"
         minSdkVersion 16
-        targetSdkVersion 28
-        versionCode 10102
-        versionName "1.0.10"
+        targetSdkVersion 29
+        versionCode 10112
+        versionName "1.0.11"
     }
     buildTypes {
         release {
@@ -20,7 +20,7 @@ android {
 
 dependencies {
     // Pushy SDK
-    implementation 'me.pushy:sdk:1.0.56'
+    implementation 'me.pushy:sdk:1.0.69'
 
     // AppCompat v7 Dependency
     implementation 'androidx.appcompat:appcompat:1.2.0'
